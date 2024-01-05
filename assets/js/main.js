@@ -21,7 +21,6 @@ function updateProfileInfo(profileData){
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-
     
 }
 
@@ -33,12 +32,17 @@ function updateSoftSkills(profileData){
 
 }
 
+function updateHardSkills(profileData){
+    const hardSkills = document.getElementById('prolife.skills.hardSkills')
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+}
+
 
 
 (async () => {
     const profileData = await fecthProfileData();
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
-    console.log(profileData)
+    updateHardSkills(profileData)
 })()
 
