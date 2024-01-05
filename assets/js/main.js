@@ -1,5 +1,7 @@
 // Envia os dados para o perfil
-function updateProfileData(profileData){
+function updateProfileInfo(profileData){
+
+    // Dados do header
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
     photo.alt = profileData
@@ -19,14 +21,24 @@ function updateProfileData(profileData){
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
+
+    
 }
 
+
+function updateSoftSkills(profileData){
+    const softSkills = document.getElementById('prolife.skills.softSkills')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+
+
+}
 
 
 
 (async () => {
     const profileData = await fecthProfileData();
-    updateProfileData(profileData)
+    updateProfileInfo(profileData)
+    updateSoftSkills(profileData)
     console.log(profileData)
 })()
 
