@@ -19,10 +19,6 @@ function updateProfileData(profileData){
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-
-
-    
-
 }
 
 
