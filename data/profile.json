@@ -37,8 +37,16 @@
           "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/docker.png"
         },
         {
-          "name": "Docker",
+          "name": "Html 5",
           "logo": " https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/html-5.png"
+        },
+        {
+          "name": "Css 3",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/css-3.png"
+        },
+        {
+          "name": "Git",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/c27abd6330a399f9cbd2594e4cd1f982add2abd3/data/imgs/git.svg"
         }
       ],
       "softSkills": [
