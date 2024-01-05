@@ -21,22 +21,38 @@ function updateProfileInfo(profileData){
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-    
 }
 
-
+// Atualiza os as softskills
 function updateSoftSkills(profileData){
     const softSkills = document.getElementById('prolife.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
-
-
 }
 
+// Atualiza as hardskills
 function updateHardSkills(profileData){
     const hardSkills = document.getElementById('prolife.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
 
+// Atualiza a sessão linguagens
+function updateLanguages(profileData){
+    const languages = document.getElementById('languages')
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+}
+
+//Atualiza o portfolio
+function updatePortfolio(profileData){
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(port => {
+        return` 
+            <li>
+                <h3 class="title ${port.github}">${port.name}</h3>
+                <a href="${port.url}" target="_blank">${port.url}</a>
+            </li>
+        `
+    }).join('')
+}
 
 
 (async () => {
@@ -44,5 +60,7 @@ function updateHardSkills(profileData){
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
+    updateLanguages(profileData)
+    updatePortfolio(profileData)
 })()
 
