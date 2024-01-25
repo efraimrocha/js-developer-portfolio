@@ -6,7 +6,6 @@ function updateProfileInfo(profileData){
     photo.src = profileData.photo
     photo.alt = profileData
 
-
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
 
@@ -68,7 +67,6 @@ function professionalExperience(profileData){
     })
 
 }
-
 
 (async () => {
     const profileData = await fecthProfileData();
