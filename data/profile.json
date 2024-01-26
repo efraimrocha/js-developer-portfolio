@@ -2,7 +2,7 @@
 {
     "name": "Efraim S Rocha.",
     "photo": "https://avatars.githubusercontent.com/u/67542881?v=4",
-    "job": "Junior Developer",
+    "job": "Desenvolvedor Python | Js | Node | PHP | Java | Postsgre | MongoDB | MySql",
     "location": "Garanhuns - PE",
     "phone": "(87) 9 9935-5564",
     "email": "efraimrocha86@gmail.com",
@@ -50,7 +50,6 @@
         "Criatividade",
         "Ética",
         "Inteligência emocional",
-        "Liderança",
         "Trabalho em equipe",
         "Flexibilidade",
         "Comunicação",
@@ -98,7 +97,27 @@
       {
         "name": "Técnico de informática - Apoio ao usuário | Laboratório Adolfo Lutz",
         "period": "2022 - 2023",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "description": "Administração de servidores | Bando de dados | Administração de suprimentos | Monitoramento de rede | Microtik | Firiwalls Suporte em automação de equipamentos de análises."
+      },
+      {
+        "name": "Técnico em gravação de áudio | R2 Entretenimentos produções e eventos LTDA",
+        "period": "2018",
+        "description": "Responsável por toda infraestrutura de som para shows e gravações. | Alinahamento de sistemas de P.A. e monitoramento. | Microfonação, captação, edição, mixagem e masterização. | Protools | Logic pro | Reaper"
+      },
+      {
+        "name": "Técnico em operação de equipamentos de produção para televisão e produtoras de vídeo",
+        "period": "Serviço Social do Comércio SESC - Garanhuns",
+        "description": "Operação e montagem de sistemas de som e audiovisual em shows, espetáculos teatrais, espetáculos de rua, cinema, exposições de artes, palestras e seminários."
+      },
+      {
+        "name": "Professor de musicalização infantil | Toddling Steps",
+        "period": "2018 - 2020",
+        "description": "Professor de musicalização das turmas do baby até o terceira série do fundamental."
+      }
+      {
+        "name": "Instrutor de Informática | Infortek Cursos",
+        "period": "2007",
+        "description": "Instrutor de curso de infromática básica, Windows, MS Office, Word, Excel, Power Point, Access, Internet, servidores de email e digitação."
       }
     ]
   }
