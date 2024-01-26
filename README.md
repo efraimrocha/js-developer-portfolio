@@ -31,26 +31,6 @@ Bem-vindo ao meu repositório de portfólio responsivo desenvolvido durante o cu
   
 - **`img/`:** Pasta contendo todas as imagens utilizadas no portfólio.
 
-```
-/assests/
-    |-/css
-        |-acordeon.css
-        |-experience.css
-        |-global.css
-        |-header.css
-        |-languages.css
-        |-portfolio.css
-        |-skills.css
-    |-/fonts
-        |-neue-machina-regular.otf
-    |-/img
-        |-/icons
-        |-
-    |-/js
-/data/
-
-```
-
 ## Agradecimentos
 
 Gostaria de expressar minha gratidão à Digital Innovation One por oferecer um curso tão abrangente e prático em JavaScript. Agradeço também a todos que me apoiaram ao longo desta jornada, fornecendo incentivo e feedback valioso.
