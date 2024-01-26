@@ -1,6 +1,6 @@
 
 {
-    "name": "Efraim S Rocha",
+    "name": "Efraim S Rocha.",
     "photo": "https://avatars.githubusercontent.com/u/67542881?v=4",
     "job": "Junior Developer",
     "location": "Garanhuns - PE",
@@ -47,9 +47,13 @@
       ],
       "softSkills": [
         "Empatia",
+        "Criatividade",
+        "Ética",
+        "Inteligência emocional",
         "Liderança",
         "Trabalho em equipe",
         "Flexibilidade",
+        "Comunicação",
         "Organização"
       ]
     },
@@ -59,13 +63,14 @@
     ],
     "portfolio": [
       {
-        "name": "Criação de uma Pokedex no curso Js Developer da DIO",
-        "url": "https://github.com/efraimrocha/js-developer-pokedex",
-        "github": true
-      },
-      {
         "name": "Criação de uma página de portfófio projeto do curso Js Developer da DIO",
         "url": "https://github.com/efraimrocha/js-developer-portfolio",
+        "github": true
+        
+      },
+      {
+        "name": "Criação de uma Pokedex no curso Js Developer da DIO",
+        "url": "https://github.com/efraimrocha/js-developer-pokedex",
         "github": true
       },
       {
