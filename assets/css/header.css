@@ -65,15 +65,15 @@
 }
 
 .information .location::before {
-    background-image: url('/assets/img/icons/location.png');
+    background-image: url('../img/icons/location.png');
 }
 
 .information .phone::before {
-    background-image: url('/assets/img/icons/phone1.png');
+    background-image: url('../img/icons/phone1.png');
 }
 
 .information .email::before  {
-    background-image: url('/assets/img/icons/email.png');
+    background-image: url(',,/img/icons/email.png');
 }
 
 @media only screen and (min-width: 768px) {
