@@ -1,4 +1,4 @@
-# Portfolio Responsivo de Desenvolvedor JavaScript
+# Efraim Rocha - Portfolio Responsivo de Desenvolvelsvido em JavaScript.
 
 Bem-vindo ao meu repositório de portfólio responsivo desenvolvido durante o curso "Desenvolvimento de Software com JavaScript" na Digital Innovation One (DIO). Este projeto é a materialização do aprendizado adquirido, destacando minhas habilidades como desenvolvedor JavaScript.
 
