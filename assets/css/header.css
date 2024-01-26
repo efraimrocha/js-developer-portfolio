@@ -54,14 +54,14 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('/assets/img/icons/job.png');
+    background-image: url('../img/icons/job.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: .5rem;
 }
 
 .information .job::before {
-    background-image: url('/assets/img/icons/job.png');
+    background-image: url('../img/icons/job.png');
 }
 
 .information .location::before {
