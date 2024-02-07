@@ -69,6 +69,8 @@ function professionalExperience(profileData){
 
 }
 
+// Função principal
+// Chama todas as outras funções para montagem dinâmica do conteúdo.
 (async () => {
     const profileData = await fecthProfileData();
     updateProfileInfo(profileData)
