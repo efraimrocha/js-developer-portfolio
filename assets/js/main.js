@@ -53,6 +53,7 @@ function updatePortfolio(profileData){
     }).join('')
 }
 
+// Renderiza sessão das ezperiências profissionais.
 function professionalExperience(profileData){
     const experience = document.getElementById('profile.experience')
     experience.innerHTML = profileData.professionalExperience.map(experience => {
