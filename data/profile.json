@@ -67,6 +67,12 @@
         "github": true
         
       },
+        
+      {
+        "name": "Criação de backend e viewas para consulta de um sistema em Django para livrarias",
+        "url": "https://github.com/efraimrocha/js-developer-pokedex",
+        "github": true
+      },
       {
         "name": "Criação de uma Pokedex no curso Js Developer da DIO",
         "url": "https://github.com/efraimrocha/js-developer-pokedex",
