@@ -13,18 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">    
 
     <!-- Import Css do projeto -->
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/acordeon.css">
-    <link rel="stylesheet" href="/assets/css/languages.css">
-    <link rel="stylesheet" href="/assets/css/portfolio.css">
-    <link rel="stylesheet" href="/assets/css/experience.css">
-    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
 
-
-
-
-    <title>Portifólio Efraim S Rocha</title>
+    <title>Portifólio Efraim Rocha</title>
 
 </head>
 
@@ -34,76 +31,51 @@
         <header class="header">
       
 
-            <img class="photo" src="./assets/img/foto_efraim.jpg" alt="Foto do Efraim Rocha" >
+            <img class="photo"  id="profile.photo" title="Foto de perfil" alt="Foto de perfil" >
     
-            <h1 class="title">Olá, <br> eu sou Efraim Rocha</h1>
+            <h1 class="title">
+                Olá, <br> eu sou <span id="profile.name">Loading...</span>
+            </h1>
     
             <div class="information">
                 <p class="job">
-                    <a href="https://www.linkedin.com/in/efraim-rocha-780889163/" target="_blank">Junior Developer</a>
+                    <a href="https://www.linkedin.com/in/efraim-rocha-780889163/" title="Linkedin" target="_blank"><span id="profile.job">Loading....</span></a>
                 </p>
                 <p class="location">
-                    <a href="https://maps.app.goo.gl/qbhwqiqYdabcftpi9" target="_blank">Garanhuns, Pernambuco - BR</a>
+                    <a href="https://maps.app.goo.gl/qbhwqiqYdabcftpi9" alt="Link para google Maps" title="Google Maps | Conheça Garanhuns" target="_blank"><span id="profile.location">Loading...</span></a>
                     
                 </p>
                 <p class="phone">
-                    <a href="tel:(87) 9 9935-5564">(87) 9 9935-5564</a>
+                    <a href="tel:(87) 9 9935-5564" alt="Fone para contato" title="Ligar agora" ><span id="profile.phone">Loading...</span></a>
                 </p>
                 <p class="email">
-                    <a href="mailto:efraimrocha86@gmail.com">efraimrocha86@gmail.com</a>
+                    <a href="mailto:efraimrocha86@gmail.com" alt="Email para contato" title="Enviar email" ><span id="profile.email">Loading...</span></a>
                 </p>
             </div>
         </header>
 
         <!-- Start - Skills -->
-        <section class="acordeon">
+        <section class="acordeon" title="Conheça minhas Skills">
             <button class="trigger">
                 <span class="title">
                     <h2>Skills</h2>
                 </span>
             </button>
 
-            <div class="content">
+            <div class="content" title="HardSkills">
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/icons/tools/js.png" alt="JavaScript" title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/nodejs.png" alt="Nodejs" title="NnodeJs">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/python-colored.png"  alt="Python" title="Python">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/css-3.png" alt="Css3" title="Css3">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/git.svg" alt="Git" title="Git">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/html-5.png" alt="">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/php.png" alt="">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/docker.png" alt="">
-                            </li>
+                        <ul id="prolife.skills.hardSkills">
+
                         </ul>
                     </section>
     
-                    <section class="personal">
+                    <section class="personal" title="Softskills" >
                         <h3>Pessoal:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Comunicação</li>
-                            <li>Trabalho em equipee</li>
-                            <li>Organização</li>
-                            <li>Comprometimento com resultados</li>
-                            <li>Flexibilidade</li>
+                        <ul id="prolife.skills.softSkills">
+                            <li>Loading...</li>
+
                         </ul>
                     </section>
                 </div>
@@ -121,16 +93,14 @@
 
             <div class="content">
                 <div>
-                    <ul class="languages">
-                        <li>Português</li>
-                        <li>Inglês</li>
+                    <ul class="languages" id="languages">
+
                     </ul>
     
                 </div>
             </div>
         </section>
         <!-- End - Idiomas -->
-
 
         <!-- Start - Portfolio -->
         <section class="acordeon">
@@ -141,19 +111,8 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Detona Ralph Game</h3>
-                        <a href="https://github.com/efraimrocha/js-detona-ralph" target="_blank">https://github.com/efraimrocha/js-detona-ralph</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Jogo da Memória - Bootcamp Potencia Tech iFood</h3>
-                        <a href="https://github.com/efraimrocha/jogo-da-memoria" target="_blank">https://github.com/efraimrocha/jogo-da-memoria</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">YU-GU-OH - Jokenpô</h3>
-                        <a href="https://github.com/efraimrocha/yu-gi-oh-cartas-js" target="_blank">https://github.com/efraimrocha/yu-gi-oh-cartas-js</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
+
                     
                 </ul>
             </div>
@@ -169,50 +128,19 @@
             </button>
 
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Detona Ralph Game</h3>
-                        <p class="period">Dez 2023 - Curent</p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius voluptas reiciendis ab eaque et, non nesciunt numquam voluptates laborum saepe cupiditate animi sed provident laboriosam cumque nam ipsum atque unde?
-                        </p>
-                    </li>  
-                    <li>
-                        <h3 class="title">Detona Ralph Game</h3>
-                        <p class="period">Dez 2023 - Curent</p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius voluptas reiciendis ab eaque et, non nesciunt numquam voluptates laborum saepe cupiditate animi sed provident laboriosam cumque nam ipsum atque unde?
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="title">Detona Ralph Game</h3>
-                        <p class="period">Dez 2023 - Curent</p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius voluptas reiciendis ab eaque et, non nesciunt numquam voluptates laborum saepe cupiditate animi sed provident laboriosam cumque nam ipsum atque unde?
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="title">Dempo descobre tempo - Curta</h3>
-                        <p class="period">Jan - Jun 2021</p>
-                        <p>
-                            Gravação mixagem e masterização - Efraim Rocha (Garage Studio Lab)<br>
-                            Trilha sonora - Efraim Rocha, Cecília Godoi, Débora Ramos e Nino Alves<br>
-                            Vozes - Cecília Godoi, Débora Ramos, Efraim Rocha e Nino Alves<br>
+                <ul class="experience" id="profile.experience">
                             
-                            <a href="https://www.youtube.com/watch?v=CoHJlPLNn_s">https://www.youtube.com/watch?v=CoHJlPLNn_s</a>
-                        </p>
-                    </li>                             
                 </ul>
             </div>
         </section>
         <!--FIM - Experiência profissional-->
 
-
-        
-
     </main>
 
-    <script src="/assets/js/acordeon.js"></script>
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+
 </body>
 
 </html>
