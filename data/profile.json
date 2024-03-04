@@ -69,7 +69,7 @@
       },
         
       {
-        "name": "Criação de backend e viewas para consulta de um sistema em Django para livrarias",
+        "name": "Criação de backend e viewas em Django para um sistema de cadastro de livros.",
         "url": "https://github.com/efraimrocha/crud_livraria",
         "github": true
       },
