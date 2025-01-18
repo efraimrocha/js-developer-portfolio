@@ -3,13 +3,7 @@
     font-size: 'Open Sans' 'sans-serif';
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-
-@font-face {
-    font-family: 'Neue Machina';
-    src: url('/assets/fonts/neue-machina-regular.otf');
-}
-
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); */
 
 body{
     background-color: #000;
@@ -36,7 +30,7 @@ a:hover{
 .main::before,
 .main::after{
     content: '';
-    background-image: url('/assets/img/background.svg');
+    background-image: url('../img/background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 90vh;

@@ -1,79 +1,138 @@
 
 {
-    "name": "Efraim S Rocha",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Junior Developer",
+    "name": "Efraim Rocha.",
+    "photo": "https://avatars.githubusercontent.com/u/67542881?v=4",
+    "job": "Desenvolvedor Python | Node | Js | Java | Postgres | MongoDB | MySql",
     "location": "Garanhuns - PE",
-    "phone": "(16) 9 9935-5564",
+    "phone": "(87) 9 9935-5564",
     "email": "efraimrocha86@gmail.com",
     "skills": {
       "hardSkills": [
         {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/js.png"
         },
         {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "name": "NodeJs",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/nodejs.png"
         },
         {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/python-colored.png"
         },
         {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-        },
-        {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "name": "Php",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/php.png"
         },
         {
           "name": "Postgresql",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        },
+        {
+          "name": "Docker",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/docker.png"
+        },
+        {
+          "name": "Html5",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/html-5.png"
+        },
+        {
+          "name": "Css3",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/main/data/imgs/css-3.png"
+        },
+        {
+          "name": "Git",
+          "logo": "https://raw.githubusercontent.com/efraimrocha/js-developer-portfolio/c27abd6330a399f9cbd2594e4cd1f982add2abd3/data/imgs/git.svg"
         }
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
+        "Criatividade",
+        "Ética",
+        "Inteligência emocional",
         "Trabalho em equipe",
         "Flexibilidade",
+        "Comunicação",
         "Organização"
       ]
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+      "Inglês (instrumental)"
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Criação de site para o Garage Studio Lab",
+        "url": "https://github.com/efraimrocha/garage",
+        "github": true    
+      },
+       {
+        "name": "Protótipo para website para campanha Elias Mouret",
+        "url": "https://efraimrocha.github.io/campanha-elias/",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Criação de uma página de portfófio dinâmica",
+        "url": "https://github.com/efraimrocha/js-developer-portfolio",
+        "github": true
+        
+      },
+      {
+        "name": "Criação de backend e viewas em Django para um sistema de cadastro de livros.",
+        "url": "https://github.com/efraimrocha/crud_livraria",
+        "github": true
+      },
+      {
+        "name": "Criação de uma Pokedex no curso Js Developer da DIO",
+        "url": "https://github.com/efraimrocha/js-developer-pokedex",
+        "github": true
+      },
+      {
+        "name": "Criação de um piano virtual realizado no bootcamp Potência Tech iFood Desenvolvimento de games na DIO",
+        "url": "https://github.com/efraimrocha/piano-digital",
+        "github": true
+      },
+      {
+        "name": "Criação de um jogo da mémória no bootcamp Potência Tech iFood Desenvolvimento de games na DIO",
+        "url": "https://github.com/efraimrocha/jogo-da-memoria",
+        "github": true
+      },
+      {
+        "name": "Criação de um game Detona Ralph no bootcamp Potência Tech iFood Desenvolvimento de games na DIO",
+        "url": "https://github.com/efraimrocha/js-detona-ralph",
+        "github": true
+      },
+      {
+        "name": "Criação de um game de Jo-Ken-Po do Yu Gi Oh no bootcamp Potência Tech iFood Desenvolvimento de games na DIO",
+        "url": "https://github.com/efraimrocha/yu-gi-oh-cartas-js",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Técnico de informática - Apoio ao usuário | Laboratório Adolfo Lutz",
+        "period": "2022 - 2023",
+        "description": "Administração de servidores | Bando de dados | Administração de suprimentos | Monitoramento de rede | Microtik | Firiwalls Suporte em automação de equipamentos de análises."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "name": "Técnico em gravação de áudio | R2 Entretenimentos produções e eventos LTDA",
+        "period": "2018",
+        "description": "Responsável por toda infraestrutura de som para shows e gravações. | Alinahamento de sistemas de P.A. e monitoramento. | Microfonação, captação, edição, mixagem e masterização. | Protools | Logic pro | Reaper"
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Técnico em operação de equipamentos de produção para televisão e produtoras de vídeo | Serviço Social do Comércio SESC - Garanhuns",
+        "period": "2010 - 2015",
+        "description": "Operação e montagem de sistemas de som e audiovisual em shows, espetáculos teatrais, espetáculos de rua, cinema, exposições de artes, palestras e seminários."
+      },
+      {
+        "name": "Professor de musicalização infantil | Toddling Steps",
+        "period": "2018 - 2020",
+        "description": "Professor de musicalização das turmas do baby até o terceira série do fundamental."
+      },
+      {
+        "name": "Instrutor de Informática | Infortek Cursos",
+        "period": "2007",
+        "description": "Instrutor de curso de infromática básica, Windows, MS Office, Word, Excel, Power Point, Access, Internet, servidores de email e digitação."
       }
     ]
   }
