@@ -62,7 +62,17 @@
     ],
     "portfolio": [
       {
-        "name": "Criação de uma página de portfófio projeto do curso Js Developer da DIO",
+        "name": "Protótipo para website para campanha Elias Mouret",
+        "url": "https://efraimrocha.github.io/campanha-elias/",
+        "github": true    
+      },
+       {
+        "name": "Protótipo para website para campanha Elias Mouret",
+        "url": "https://efraimrocha.github.io/campanha-elias/",
+        "github": true
+      },
+      {
+        "name": "Criação de uma página de portfófio dinâmica",
         "url": "https://github.com/efraimrocha/js-developer-portfolio",
         "github": true
         
