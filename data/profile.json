@@ -62,8 +62,8 @@
     ],
     "portfolio": [
       {
-        "name": "Protótipo para website para campanha Elias Mouret",
-        "url": "https://efraimrocha.github.io/campanha-elias/",
+        "name": "Criação de site para o Garage Studio Lab",
+        "url": "https://github.com/efraimrocha/garage",
         "github": true    
       },
        {
@@ -77,7 +77,6 @@
         "github": true
         
       },
-        
       {
         "name": "Criação de backend e viewas em Django para um sistema de cadastro de livros.",
         "url": "https://github.com/efraimrocha/crud_livraria",
